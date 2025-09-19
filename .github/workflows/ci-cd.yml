@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-newest
+    runs-on: ubuntu-newestversion
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
